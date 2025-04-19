@@ -14,30 +14,22 @@ export default function PokemonCard({ name, url, onClick }) {
 
   return (
     <div
+      onClick={() => onClick(url)}
       style={cardStyle}
       className="pokemon-card"
-      onClick={() => onClick(url)} // ✅ Use this for modal triggering
     >
       <img
         src={data.sprites.front_default}
         alt={data.name}
-        style={{
-          width: "96px",
-          height: "96px",
-          marginBottom: "0.5rem"
-        }}
+        style={{ width: "96px", height: "96px", marginBottom: "0.5rem" }}
       />
-      <h3 style={{
-        textTransform: "capitalize",
-        fontSize: "1.1rem",
-        color: "#333",
-        margin: 0
-      }}>
+      <h3 style={{ textTransform: "capitalize", fontSize: "1.1rem", color: "#333", margin: 0 }}>
         {data.name}
       </h3>
     </div>
   );
 }
+
 
 
 // Styling object

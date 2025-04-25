@@ -10,8 +10,14 @@ const router = createHashRouter([
     path: '/',
     element: <App />,
     children: [
-      { path: '/', element: <Pokedex /> },
-      { path: '/about', element: <About /> },
+      {
+        index: true, // cleaner than repeating path: '/'
+        element: <Pokedex />,
+      },
+      {
+        path: 'about', // no need for leading slash in nested routes
+        element: <About />,
+      },
     ],
   },
 ]);

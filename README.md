@@ -18,7 +18,6 @@ Welcome to the **Pokédex** – a simple, interactive web application that allow
 
 - 🔍 Browse Pokémon with **pagination**
 - 📊 View **detailed stats** and high-quality images
-- 🌈 Type-based **color themes**
 - 📱 Fully **responsive** layout
 - 🧭 Simple and clean **navigation bar**
 

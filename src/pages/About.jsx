@@ -12,16 +12,13 @@ const About = () => (
     <ul>
       <li><strong>React</strong> – For building the UI using components</li>
       <li><strong>Vite</strong> – For lightning-fast development and builds</li>
-      <li><strong>React Router</strong> – For client-side routing between pages</li>
       <li><strong>PokéAPI</strong> – For retrieving real Pokémon data</li>
-      <li><strong>CSS</strong> – For styling individual parts of the UI</li>
     </ul>
 
     <h3>💡 Features</h3>
     <ul>
       <li>Pagination for browsing Pokémon</li>
       <li>Detailed Pokémon stats and images</li>
-      <li>Responsive design and themed type colors</li>
     </ul>
   </div>
 );
